@@ -42,34 +42,34 @@ API testing is done using Postman, and the database schema follows a well-struct
    cd Event_Booking_Project_Backend_API_With_Laravel
 
 2. Instal Composer dependencies
-
+    ```bash
     composer install
 
 3. Copy .env.example to .env
-
+    ```bash
     cp .env.example .env
 
 4. Generate Laravel application key
-
+    ```bash
     php artisan key:generate
 
 5. Create a database named events_booking on your local MySQL server.
 
 6. Configure your database credentials in .env
-
-    DB_CONNECTION=mysql<br>
-    DB_HOST=127.0.0.1<br>
-    DB_PORT=3306<br>
-    DB_DATABASE=events_booking<br>
-    DB_USERNAME=root<br>
-    DB_PASSWORD=your_db_password<br>
+    ```bash
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=events_booking
+    DB_USERNAME=root
+    DB_PASSWORD=your_db_password
 
 7. Run database migrations
-
+    ```bash
     php artisan migrate
 
 8. Seed the database with sample data
-
+    ```bash
     php artisan db:seed
 
 9. Configure Mailtrap for email testing: 

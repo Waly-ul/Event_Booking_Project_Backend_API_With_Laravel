@@ -1,4 +1,4 @@
-# Event Booking System Backend API with Laravel
+# Events Booking System Backend API with Laravel
 
 [Project Repository](https://github.com/Waly-ul/Event_Booking_Project_Backend_API_With_Laravel)
 

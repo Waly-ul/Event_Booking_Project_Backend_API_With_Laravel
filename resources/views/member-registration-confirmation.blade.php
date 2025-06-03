@@ -9,7 +9,7 @@
 <body>
     <div>
         <h1>Member Registration Confirmation Mail.</h1>
-        <h2>Welcome {{ $name }} to our Event Management</h2>
+        <h2>Welcome {{ $name }} to our Events Management System.</h2>
     </div>
 </body>
 </html>
